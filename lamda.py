@@ -3,3 +3,7 @@ def calculate(a,b):
 test=calculate(2,3)
 print(test)
 print(calculate(3,4))
+
+
+testLambda= (lambda x,y:x*x + 2*x*y+y*y)(2,3)
+print(testLambda)
