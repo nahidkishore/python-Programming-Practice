@@ -29,6 +29,23 @@ print(len(name))
 
 name.append('dhaka')
 print(name)
+#To add an item at the specified index, use the insert() method:
 
-
-
+name.insert(2,'katiadi')
+print(name)
+#Remove Item
+name.remove('tania')
+print(name)
+#pop
+name.pop()
+print(name)
+#The del keyword removes the specified index:
+del name[5]
+print(name)
+#The del keyword can also delete the list completely:
+name1=['apple', 'banana', 'amm']
+del name1
+#The clear() method empties the list:
+name2=['apple', 'banana', 'amm']
+name2.clear()
+print(name2)
