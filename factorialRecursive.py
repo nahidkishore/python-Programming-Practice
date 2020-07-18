@@ -11,8 +11,10 @@ print(result)
 
 def factorial(num):
   fact=1
-  for i in range(0,num+1):
+  for i in range(1,num+1):
     fact=fact*i
   return fact
-test=factorial(5)
+test=factorial(6)
 print(test)
+
+
